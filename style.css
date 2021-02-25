@@ -1,0 +1,27 @@
+/*
+ Theme Name:   shoper child
+ Description:  Dette er child rebrand af shoper tema
+ Author:       Alexander Jensen
+ Template:     shoper
+*/
+
+
+
+:root {
+    --primary-color: #6c757d !important;
+    --secondary-color: #555575 !important;
+    --nav-h-bg: #555557 !important;
+}
+
+.custom-logo {
+    height: 5vh !important;
+    width: auto !important;
+}
+
+h2 {
+    color: chocolate;
+}
+
+/* ændring af position på buttons på forside */
+
+.wp-block-buttons
