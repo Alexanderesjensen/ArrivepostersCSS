@@ -3,23 +3,28 @@
  Description:  Dette er child rebrand af shoper tema
  Author:       Alexander Jensen
  Template:     shoper
+ Version:      1.2.1
 */
 
 
 
 :root {
-    --primary-color: #6c757d !important;
+    --primary-color: #b61055 !important;
     --secondary-color: #555575 !important;
     --nav-h-bg: #555557 !important;
 }
 
 .custom-logo {
-    height: 512px !important;
+    height: 1vh !important;
     width: auto !important;
 }
 
 h2 {
-    color: chocolate;
+    color: blueviolet !important;
 }
 
 /* ændring af position på buttons på forside */
+
+.wp-block-buttons {
+text-align: center;
+}

@@ -14,5 +14,5 @@ function my_theme_enqueue_styles() {
         array( $parenthandle ),
         $theme->get('Version') // this only works if you have Version in the style header
     );
-    add_filter( 'woocommerce_enqueue_styles', '__return_false' );
+
 }
