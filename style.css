@@ -19,20 +19,23 @@ body {
     font-family: poppins;
 }
 
-h1,h2,h3,h4,h5,h6{
+p,h1,h2,h3,h4,h5,h6{
 font-family: poppins;
 }
 .custom-logo {
-    height: 1vh !important;
+    height: 7vh !important;
     width: auto !important;
 }
 
-h2 {
-    color: blueviolet !important;
+#static_header_banner {
+    display: none;
 }
+
+
 
 /* ændring af position på buttons på forside */
 
 .wp-block-buttons {
 text-align: center;
+text-decoration: none;
 }
