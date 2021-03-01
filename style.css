@@ -12,7 +12,7 @@
 :root {
     --primary-color: #1087b6 !important;
     --secondary-color: #dbd0ca !important;
-    --nav-h-bg: #dbd0ca !important;
+    --nav-h-bg: #dbcad2 !important;
 }
 
 body {
@@ -21,7 +21,9 @@ body {
 
 p,h1,h2,h3,h4,h5,h6{
 font-family: poppins;
+color: #282120;
 }
+
 .custom-logo {
     height: 7vh !important;
     width: auto !important;
@@ -31,7 +33,9 @@ font-family: poppins;
     display: none;
 }
 
-
+.icofont-user-alt-4{
+    display: none;
+}
 
 /* ændring af position på buttons på forside */
 
