@@ -44,14 +44,18 @@ text-align: center;
 text-decoration: none;
 }
 
+/* ændring af footer */
+
 #colophon.site-footer {
 background-color: #dbd0ca;
 }
 
-
 #colophon.site-footer .site_info {
 background-color: #dbd0ca;
 }
+
+
+/* fjernet bruger info i nav bar*/
 
 .dev_info {
 display: none !important;
