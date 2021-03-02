@@ -12,7 +12,7 @@
 :root {
     --primary-color: #1087b6 !important;
     --secondary-color: #dbd0ca !important;
-    --nav-h-bg: #dbcad2 !important;
+    --nav-h-bg: #dbd0ca !important;
 }
 
 body {
@@ -44,6 +44,14 @@ text-align: center;
 text-decoration: none;
 }
 
+#colophon.site-footer {
+background-color: #dbd0ca;
+}
+
+
+#colophon.site-footer .site_info {
+background-color: #dbd0ca;
+}
 
 .dev_info {
 display: none !important;
